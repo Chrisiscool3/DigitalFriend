@@ -124,7 +124,7 @@
         "responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."]
     },
     {"tag": "jokes",
-        "patterns": ["Tell me a joke", "Tell me another joke",  "Make me laugh", ""],
+        "patterns": ["Tell me a joke", "Tell me another joke",  "Make me laugh"],
         "responses": [
                 "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
                 "I ate a clock yesterday, it was very time-consuming",
