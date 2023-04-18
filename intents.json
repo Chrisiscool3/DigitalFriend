@@ -16,7 +16,7 @@
         "responses": ["Good evening. How has your day been?"]
     },
     {"tag": "night",
-        "patterns": ["Good night", "nighty night", "sweet dreams", "night", "gn", "i'm going to sleep", "it's night time"],
+        "patterns": ["Good night", "nighty night", "sweet dreams", "night", "i'm going to sleep", "it's night time"],
         "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
     },
     {"tag": "goodbye",
@@ -24,7 +24,7 @@
      "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
     },
     {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much", "ty", "I appreciate it", "cheers", "sounds good"],
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much", "I appreciate it", "cheers", "sounds good"],
      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
     },
     {"tag": "no-response",
@@ -52,7 +52,7 @@
         "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
     },
     {"tag": "help",
-    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please",   "What support is offered?"],
+    "patterns": ["Could you help me?", "Give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please",   "What support is offered?"],
     "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
     },
     {"tag": "sad",
@@ -76,7 +76,7 @@
         "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
     },
     {"tag": "casual",
-        "patterns": ["Oh I see.", "Ok", "Okay", "Nice", "Whatever", "K", "Fine", "Yeah", "Yes", "No", "Mot really", "Okay"],
+        "patterns": ["Oh I see.", "Ok", "Okay", "Nice", "Whatever", "K", "Fine", "Yeah", "Yes", "No", "Not really", "Okay"],
         "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?"]
     },
     {"tag": "anxious",
@@ -96,11 +96,11 @@
         "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."]
     },
     {"tag": "death",
-        "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away", "I am experiencing grief", "I am grieving"],
+        "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away", "I am experiencing grief", "I am grieving", "I have lost someone", "I am experiencing lost"],
         "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."]
     },
     {"tag": "understand",
-        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me.", "You don't get me"],
         "responses": [ "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"]
     },
     {"tag": "done",
@@ -108,11 +108,11 @@
         "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
     },
     {"tag": "suicide",
-        "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide", "I want to end it all", "I want to off myself"],
+        "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide", "I want to end it all", "I want to off myself", "I want to hurt myself", "I want to harm myself", "I want to feel pain"],
         "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 988."]
     }, 
     {"tag": "hate-you",
-        "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+        "patterns": ["I hate you", "I don't like you", "I don't trust you", "You're not likeable", "You bother me"],
         "responses": ["I'm sorry if i offended you in anyway. I'm only here to help", "Forgive me if i did anything to offend you. I only want to help"]
     },
     {"tag": "hate-me",
@@ -124,7 +124,7 @@
         "responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."]
     },
     {"tag": "jokes",
-        "patterns": ["Tell me a joke", "Tell me another joke",  "Make me laugh", ""],
+        "patterns": ["Tell me a joke", "Tell me another joke",  "Make me laugh", "I want to laugh", "I like jokes"],
         "responses": [
                 "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
                 "I ate a clock yesterday, it was very time-consuming",
@@ -136,11 +136,11 @@
                 "How does a penguin build a house? Igloos it together",
                 "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
                 "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
-                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                "oh what if I don't know what 'Armageddon' means? It's not the end of the world."
             ]
     },
     {"tag": "repeat",
-        "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?", "You have said that"],
+        "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?", "You have said that", "You just said that"],
         "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
     },
     {"tag": "wrong",
@@ -148,11 +148,11 @@
         "responses": ["I'm very sorry. Let's try that again"]
     },
     {"tag": "stupid",
-        "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+        "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?", "That's dumb", "That's stupid"],
         "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
     },
     {"tag": "location",
-        "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+        "patterns": ["Where are you?", "Where do you live?", "What is your location?", "Where do you exist"],
         "responses": ["I live in your computer", "Everywhere", "Somewhere in the universe" ]
     },
     {"tag": "something-else",
@@ -160,11 +160,11 @@
         "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
     },
     {"tag": "friends",
-        "patterns": ["I don't have any friends", "I need more friends", "Nobody wants to be my friend", "I keep losing friends"],
+        "patterns": ["I don't have any friends", "I need more friends", "Nobody wants to be my friend", "I keep losing friends", "I am friendless"],
         "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think that's the case?"]
     },
     {"tag": "ask",
-        "patterns": ["Can I ask you something?", "Can you answer a question?"],
+        "patterns": ["Can I ask you something?", "Can you answer a question?"< "I have a question"],
         "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"]
     },
     {"tag": "problem",
@@ -184,7 +184,7 @@
         "responses": ["Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."]
     },
     {"tag": "meditation",
-        "patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful.", "I want to meditate", "How do I meditate?"],
+        "patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful.", "I want to meditate", "How do I meditate?", "What's a meditating technique"],
         "responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."]
     },
     {"tag": "user-meditation",
@@ -220,7 +220,7 @@
         "responses": ["A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."]
     },
     {"tag": "fact-5",
-        "patterns": ["How do i know if i have Depression?", "Am i depressed?", "Am i suffering from depression?", "Am i mentally ill?"],
+        "patterns": ["How do i know if i have Depression?", "Am i depressed?", "Am i suffering from depression?", "Am i mentally ill?", "Do you think I'm depressed?"],
         "responses": ["For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."]
     },
     {"tag": "fact-6",
@@ -232,7 +232,7 @@
         "responses": ["Therapy is a form of treatment that aims to help resolve mental or emotional issues.", "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."]
     },
     {"tag": "fact-8",
-        "patterns": ["What does it mean to have a mental illness?"],
+        "patterns": ["What does it mean to have a mental illness?", "What is mental illness?"],
         "responses": ["Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."]
     },
     {"tag": "fact-9",
@@ -240,7 +240,7 @@
         "responses": ["It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their childÃ¢â‚¬â„¢s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."]
     },
     {"tag": "fact-10",
-        "patterns": ["What causes mental illness?"],
+        "patterns": ["What causes mental illness?", "Why are people mentally ill?"],
         "responses": ["It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."]
     },
     {"tag": "fact-11",
@@ -260,7 +260,7 @@
         "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."]
     },
     {"tag": "fact-15",
-        "patterns": ["What treatment options are available?"],
+        "patterns": ["What treatment options are available?", "How do you treat mental illness?"],
         "responses": ["Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."]
     },
     {"tag": "fact-16",
@@ -406,5 +406,290 @@
                 "Why can't a bike stand on it's own?.....It is two-tired."
             ]
         }
+     {
+            "tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+{
+            "tag": "age",
+            "patterns": [
+                "How old are you?",
+                "When were you made?",
+                "What is your age?",
+                "When is your birthday?"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!",
+                "My birthday was on 18th of April"
+            ]
+        },
+{
+            "tag": "Question 0002",
+            "question": [
+                "what is artificial intelligence",
+                "what is meant by artificial intelligence",
+                "what is ai",
+                "what is meant by ai",
+                "what is ai",
+                "what is meant by ai",
+                "artificial intelligence",
+                "ai",
+                "what is an ai",
+                "artificial inteligent",
+                "ai meaning"
+            ],
+            "answer": [
+                "AI can be described as an area of computer science that simulates human intelligence in machines. It is about smart algorithms making decisions based on the available data."
+            ]
+        },
+{
+            "tag": "Question 0003",
+            "question": [
+                "what's the most popular programming language used in ai",
+                "what are the programming languages used in ai",
+                "programming in artificial intelligence",
+                "programming in ai",
+                "programming language in artificial intelligence",
+                "programming language in ai",
+                "what is programming"
+            ],
+            "answer": [
+                "The open-source modular programming language Python leads the AI industry because of its simplicity and predictable coding behavior.Its popularity can be attributed to open-source libraries like Matplotlib and NumPy, efficient frameworks such as Scikit-learn, and practical version libraries like Tensorflow and VTK."
+            ]
+        },
+ {
+            "tag": "Question 0005",
+            "question": [
+                "what are some examples of ai in use",
+                "examples of ai",
+                "examples of ai",
+                "ai example",
+                "artificial intelligence example",
+                "what are the examples of ai in our life"
+            ],
+            "answer": [
+                "I am an example of AI",
+                "Chatbots ,Facial recognition, Image tagging ,Natural language processing, Sales prediction ,Self-driving cars ,Sentiment analysis"
+            ]
+        },
+{
+            "tag": "Medical - 2",
+            "question": [
+                "will vitamin d save my life",
+                "benifits of vitamin d",
+                "did vitamin d save my life",
+                "effects of vitamin d",
+                "is vitamin d dangerous",
+                "is vitamin d good",
+                "positives of vitamin d",
+                "positive effects of vitamin d",
+                "high dose of vitamin d",
+                "vitamin d"
+            ],
+            "answer": [
+                "A growing body of evidence strongly suggests that vitamin D in high doses does not only helps keep bones strong but also reduces the risk of colon, ovarian, and breast cancers, and diseases such as diabetes and multiple sclerosis."
+            ]
+        },
+        {
+            "tag": "Medical - 3",
+            "question": [
+                "how to get rid of huccups",
+                "get rid of hiccups",
+                "avoid hiccups",
+                "stop hiccups",
+                "how to stop hiccups",
+                "hiccup remedy",
+                "reduce hiccups",
+                "how to stop my hiccup"
+            ],
+            "answer": [
+                "Try altering your breathing cycle, which may calm your diaphragm down",
+                "Try to breath into a paper bag, pulling your knees to your chest and leaning forward",
+                "Try drinking water from the opposite side of a glass while bending over",
+                "Try Gargling with ice water or sipping cold water. If you do gargle, make sure that you don't have so much ice in your month that you start spreading it around the room like a geyser",
+                "Try Pulling on your tongue. But don't pull so hard that your tongue comes out, which will lead to bigger problems",
+                "Getting Scared. A sudden scare may help, such as someone suddenly jumping infront of you or being told that there is a sequel to the 2016 movie Dirty Grandpa",
+                "Laughing spontaneously. They say laughter is the best medicine. Maybe someone else hiccuping can get you laughing"
+            ]
+        },{
+            "tag": "Q 15",
+            "question": [
+                "what is deep learning?",
+                "define deep learning",
+                "explain the term deep learning"
+            ],
+            "answer": [
+                "Deep learning is a type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge. Deep learning is an important element of data science, which includes statistics and predictive modeling. It is extremely beneficial to data scientists who are tasked with collecting, analyzing and interpreting large amounts of data; deep learning makes this process faster and easier."
+            ]
+        },{
+            "tag": "Q 26",
+            "question": [
+                "what is chatbot",
+                "define chatbot",
+                "explain about chatbot",
+                "what is the meaning of the word chatbot",
+                "explain chatbot",
+                "what is op in gaming"
+            ],
+            "answer": [
+                "A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone."
+            ]
+        },
+        {
+            "tag": "Q 27",
+            "question": [
+                "why are chatbots important",
+                "explain the importance of chatbot"
+            ],
+            "answer": [
+                " A chatbot is often described as one of the most advanced and promising expressions of interaction between humans and machines. However, from a technological point of view, a chatbot only represents the natural evolution of a Question Answering system leveraging Natural Language Processing (NLP). Formulating responses to questions in natural language is one of the most typical Examples of Natural Language Processing applied in various enterprises' end-use applications."
+            ]
+        },
+        {
+            "tag": "Q 40",
+            "question": [
+                "what causes dreams to happen",
+                "how dreams form"
+            ],
+            "answer": [
+                "In 'The Interpretation of Dreams', Freud wrote that dreams are 'disguised fulfillments of repressed wishes'. He also described two different components of dreams: manifest content (actual images) and latent content (hidden meaning). Freud's theory contributed to the rise and popularity of dream interpretation. While research has failed to demonstrate that the manifest content disguises the psychological significance of a dream, some experts believe that dreams play an important role in processing emotions and stressful experiences."
+            ]
+        },
+{
+            "tag": "Q 42",
+            "question": [
+                "is time travel possible",
+                "can anyone travel through time"
+            ],
+            "answer": [
+                " Yes, time travel is indeed a real thing. But it's not quite what you've probably seen in the movies. Under certain conditions, it is possible to experience time passing at a different rate than 1 second per second. "
+            ]
+        },{
+            "tag": "Q 42",
+            "question": [
+                "is time travel possible",
+                "can anyone travel through time"
+            ],
+            "answer": [
+                " Yes, time travel is indeed a real thing. But it's not quite what you've probably seen in the movies. Under certain conditions, it is possible to experience time passing at a different rate than 1 second per second. "
+            ]
+        },
+{
+            "tag": "Q 67",
+            "question": [
+                "what are bodily functions",
+                "bodily functions",
+                "body functions",
+                "body function",
+                "what is meant by body functions"
+            ],
+            "answer": [
+                "Body functions are the physiological or psychological functions of body systems. The body's functions are ultimately its cells' functions. Survival is the body's most important business. Survival depends on the body's maintaining or restoring homeostasis, a state of relative constancy, of its internal environment."
+            ]
+        },
+        {
+            "tag": "Q 68",
+            "question": [
+                "what is brain-freeze",
+                "brain freeze",
+                "what is brain freeze",
+                "brain freeze meaning",
+                "what is meant by brain freeze",
+                "brain freezed"
+            ],
+            "answer": [
+                "Brain freeze, or ice cream headache, is an intense pain in the head caused by eating or drinking something cold. It's not serious and goes away in a few seconds or minutes. If you get one, try to bring the temperature in your mouth and throat back to normal."
+            ]
+        },
+{
+            "tag": "Q 76",
+            "question": [
+                "how does trash in the ocean disappear",
+                "what happes to the garbage in the ocean ",
+                "where do the wastes in the ocean go"
+            ],
+            "answer": [
+                "Much of the trash in the ocean does not disappear, and this is becoming a big problem. Biodegradable materials such as paper, cardboard, and food quickly disintegrate, degrade, and are eaten by microorganisms in the ocean. However, materials such as plastic, glass, and metal do not degrade as well. Glass and metal tend to be heavy enough that they sink to the bottom of the ocean, out of sight. On the other hand, most plastic objects float on the surface of the ocean. Over time, ocean currents either wash this floating trash ashore or sweep it into big patches of garbage in the middle of the oceans."
+            ]
+        },
+{
+            "tag": "Q 89",
+            "question": [
+                "what is machine learning",
+                "machine learning",
+                "what is ml",
+                "explain ml",
+                "explain machine learning",
+                "explain about machine learning",
+                "give the definition of machine learning",
+                "ml"
+            ],
+            "answer": [
+                "Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks. A subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers; but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.Some implementations of machine learning use data and neural networks in a way that mimics the working of a biological brain. In its application across business problems, machine learning is also referred to as predictive analytics."
+            ]
+        },
+ {
+            "tag": "Q 93",
+            "question": [
+                "what is data science",
+                "data science meaning",
+                "data science",
+                "what is ds",
+                "ds",
+                "explain data science"
+            ],
+            "answer": [
+                "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains. Data science is related to data mining, machine learning and big data."
+            ]
+        },
+{
+            "tag": "quantum computing",
+            "question": [
+                "what is quantum computing?",
+                "definition for quantum computing"
+            ],
+            "answer": [
+                "Quantum computing is a type of computation that harnesses the collective properties of quantum states, such as superposition, interference, and entanglement, to perform calculations. The devices that perform quantum computations are known as quantum computers."
+            ]
+        },
+        {
+            "tag": "Computer 1",
+            "question": [
+                "what is parts of computer system?"
+            ],
+            "answer": [
+                "There are five main hardware components in a computer system: Input, Processing, Storage, Output and Communication devices. Are devices used for entering data or instructions to the central processing unit"
+            ]
+        },
+ {
+            "tag": "Question P15",
+            "question": [
+                "education important ?",
+                "is education important",
+                "importance of education"
+            ],
+            "answer": [
+                "Education helps to build character as you learn about different cultures, languages and how other people think as well as live. When you have an education you are able to fulfill the basic needs in life. You are taught to get dressed, learn self-care and practical life skills."
+            ]
+        },
+
     ]
 }
