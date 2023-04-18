@@ -164,7 +164,7 @@
         "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think that's the case?"]
     },
     {"tag": "ask",
-        "patterns": ["Can I ask you something?", "Can you answer a question?"< "I have a question"],
+        "patterns": ["Can I ask you something?", "Can you answer a question?", "I have a question"],
         "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"]
     },
     {"tag": "problem",
