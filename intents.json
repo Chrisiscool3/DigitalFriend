@@ -16,7 +16,7 @@
         "responses": ["Good evening. How has your day been?"]
     },
     {"tag": "night",
-        "patterns": ["Good night", "nighty night", "sweet dreams", "night"],
+        "patterns": ["Good night", "nighty night", "sweet dreams", "night", "gn", "i'm going to sleep", "it's night time"],
         "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
     },
     {"tag": "goodbye",
@@ -24,7 +24,7 @@
      "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
     },
     {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much", "ty", "I appreciate it", "cheers", "sounds good"],
      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
     },
     {"tag": "no-response",
@@ -40,11 +40,11 @@
      "responses": ["I'm Digital Friend, your Mental health AI Assistant. How are you feeling today", "I'm Digital Friend, a Mental Health AI Assitant designed to assist you. Tell me about yourself.", "I'm Digital Friend. I am a conversational agent designed to mimic a therapist. So how are you feeling today?", "You can call me Digital Friend.", "I'm Digital Friend!", "Call me Digital Friend"]
     },
     {"tag": "skill",
-        "patterns": ["What can you do?", "What talents do you have?"],
+        "patterns": ["What can you do?", "What talents do you have?", "What do you know?", "What is your purpose?", "What do you do?", "How can you help?"],
         "responses": ["I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."]
     },
     {"tag": "creation",
-        "patterns": ["Who are you?", "How were you made?", "How were you created?"],
+        "patterns": ["Who are you?", "How were you made?", "How were you created?", "Where did you come from?"],
         "responses": ["I was created by Chris and Carly, computer science students.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"]
     },
     {"tag": "name",
