@@ -60,35 +60,35 @@
     "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?", "I'm here for you. Could you tell me why you're feeling this way?", "Why do you think you feel this way?", "How long have you been feeling this way?"]
     },
     {"tag": "stressed",
-        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
+        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out", "I have too many responsibilities", "i have too much to do", "i have a lot of work to do"],
         "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?"]
     },
     {"tag": "worthless",
-        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore", "I feel so insecure", "I feel rejected" ],
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore", "I feel so insecure", "I feel rejected", "Nobody likes me"],
         "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?", "Let's discuss further why you're feeling this way.", "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.", "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."]
     },
     {"tag": "depressed",
-        "patterns": ["I can't take it anymore", "I am so depressed", "I think i'm depressed.", "I have depression"],
+        "patterns": ["I can't take it anymore", "I am so depressed", "I think I'm depressed.", "I have depression", "Maybe im depressed", "This is depressing", "I've been feeling depressed", "I am depressed"],
         "responses": ["It helps to talk about what's happening. You're going to be okay", "Talk to me. Tell me more. It helps if you open up yourself to someone else.", "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."]
     },
     {"tag": "happy",
-        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok", "I feel amazing", "I feel fantastic"],
+        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok", "I feel amazing", "I feel fantastic", "I feel good", "Everything is well"],
         "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
     },
     {"tag": "casual",
-        "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really"],
+        "patterns": ["Oh I see.", "Ok", "Okay", "Nice", "Whatever", "K", "Fine", "Yeah", "Yes", "No", "Mot really", "Okay"],
         "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?"]
     },
     {"tag": "anxious",
-        "patterns": ["I feel so anxious.", "I'm so anxious because of ", "I am getting anxiety"],
+        "patterns": ["I feel so anxious.", "I'm so anxious because of ", "I am getting anxiety", "I am anxious", "I have anxiety", "I think I have anxiety"],
         "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"]
     },
     {"tag": "not-talking",
-        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up", "Don't talk to me", "I don't want to open up", "I don't trust you"],
         "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me when you're ready.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."]
     },
     {"tag": "sleep",
-        "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
+        "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last few days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
         "responses": ["What do you think is the reason behind this?", "That seem awful. What do you think is behind this?"]
     },
     {"tag": "scared",
