@@ -405,7 +405,7 @@
                 " What 5-letter word becomes shorter when you add two letters to it?.....Short",
                 "Why can't a bike stand on it's own?.....It is two-tired."
             ]
-        }
+        },
      {
             "tag": "riddle",
             "patterns": [
@@ -443,7 +443,7 @@
         },
 {
             "tag": "Question 0002",
-            "question": [
+            "patterns": [
                 "what is artificial intelligence",
                 "what is meant by artificial intelligence",
                 "what is ai",
@@ -456,13 +456,13 @@
                 "artificial inteligent",
                 "ai meaning"
             ],
-            "answer": [
+            "responses": [
                 "AI can be described as an area of computer science that simulates human intelligence in machines. It is about smart algorithms making decisions based on the available data."
             ]
         },
 {
             "tag": "Question 0003",
-            "question": [
+            "patterns": [
                 "what's the most popular programming language used in ai",
                 "what are the programming languages used in ai",
                 "programming in artificial intelligence",
@@ -471,13 +471,13 @@
                 "programming language in ai",
                 "what is programming"
             ],
-            "answer": [
+            "responses": [
                 "The open-source modular programming language Python leads the AI industry because of its simplicity and predictable coding behavior.Its popularity can be attributed to open-source libraries like Matplotlib and NumPy, efficient frameworks such as Scikit-learn, and practical version libraries like Tensorflow and VTK."
             ]
         },
  {
             "tag": "Question 0005",
-            "question": [
+            "patterns": [
                 "what are some examples of ai in use",
                 "examples of ai",
                 "examples of ai",
@@ -485,14 +485,14 @@
                 "artificial intelligence example",
                 "what are the examples of ai in our life"
             ],
-            "answer": [
+            "responses": [
                 "I am an example of AI",
                 "Chatbots ,Facial recognition, Image tagging ,Natural language processing, Sales prediction ,Self-driving cars ,Sentiment analysis"
             ]
         },
 {
             "tag": "Medical - 2",
-            "question": [
+            "patterns": [
                 "will vitamin d save my life",
                 "benifits of vitamin d",
                 "did vitamin d save my life",
@@ -504,13 +504,13 @@
                 "high dose of vitamin d",
                 "vitamin d"
             ],
-            "answer": [
+            "responses": [
                 "A growing body of evidence strongly suggests that vitamin D in high doses does not only helps keep bones strong but also reduces the risk of colon, ovarian, and breast cancers, and diseases such as diabetes and multiple sclerosis."
             ]
         },
         {
             "tag": "Medical - 3",
-            "question": [
+            "patterns": [
                 "how to get rid of huccups",
                 "get rid of hiccups",
                 "avoid hiccups",
@@ -520,7 +520,7 @@
                 "reduce hiccups",
                 "how to stop my hiccup"
             ],
-            "answer": [
+            "responses": [
                 "Try altering your breathing cycle, which may calm your diaphragm down",
                 "Try to breath into a paper bag, pulling your knees to your chest and leaning forward",
                 "Try drinking water from the opposite side of a glass while bending over",
@@ -531,17 +531,17 @@
             ]
         },{
             "tag": "Q 15",
-            "question": [
+            "patterns": [
                 "what is deep learning?",
                 "define deep learning",
                 "explain the term deep learning"
             ],
-            "answer": [
+            "responses": [
                 "Deep learning is a type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge. Deep learning is an important element of data science, which includes statistics and predictive modeling. It is extremely beneficial to data scientists who are tasked with collecting, analyzing and interpreting large amounts of data; deep learning makes this process faster and easier."
             ]
         },{
             "tag": "Q 26",
-            "question": [
+            "patterns": [
                 "what is chatbot",
                 "define chatbot",
                 "explain about chatbot",
@@ -549,65 +549,65 @@
                 "explain chatbot",
                 "what is op in gaming"
             ],
-            "answer": [
+            "responses": [
                 "A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone."
             ]
         },
         {
             "tag": "Q 27",
-            "question": [
+            "patterns": [
                 "why are chatbots important",
                 "explain the importance of chatbot"
             ],
-            "answer": [
+            "responses": [
                 " A chatbot is often described as one of the most advanced and promising expressions of interaction between humans and machines. However, from a technological point of view, a chatbot only represents the natural evolution of a Question Answering system leveraging Natural Language Processing (NLP). Formulating responses to questions in natural language is one of the most typical Examples of Natural Language Processing applied in various enterprises' end-use applications."
             ]
         },
         {
             "tag": "Q 40",
-            "question": [
+            "patterns": [
                 "what causes dreams to happen",
                 "how dreams form"
             ],
-            "answer": [
+            "responses": [
                 "In 'The Interpretation of Dreams', Freud wrote that dreams are 'disguised fulfillments of repressed wishes'. He also described two different components of dreams: manifest content (actual images) and latent content (hidden meaning). Freud's theory contributed to the rise and popularity of dream interpretation. While research has failed to demonstrate that the manifest content disguises the psychological significance of a dream, some experts believe that dreams play an important role in processing emotions and stressful experiences."
             ]
         },
 {
             "tag": "Q 42",
-            "question": [
+            "patterns": [
                 "is time travel possible",
                 "can anyone travel through time"
             ],
-            "answer": [
+            "responses": [
                 " Yes, time travel is indeed a real thing. But it's not quite what you've probably seen in the movies. Under certain conditions, it is possible to experience time passing at a different rate than 1 second per second. "
             ]
         },{
             "tag": "Q 42",
-            "question": [
+            "patterns": [
                 "is time travel possible",
                 "can anyone travel through time"
             ],
-            "answer": [
+            "responses": [
                 " Yes, time travel is indeed a real thing. But it's not quite what you've probably seen in the movies. Under certain conditions, it is possible to experience time passing at a different rate than 1 second per second. "
             ]
         },
 {
             "tag": "Q 67",
-            "question": [
+            "patterns": [
                 "what are bodily functions",
                 "bodily functions",
                 "body functions",
                 "body function",
                 "what is meant by body functions"
             ],
-            "answer": [
+            "responses": [
                 "Body functions are the physiological or psychological functions of body systems. The body's functions are ultimately its cells' functions. Survival is the body's most important business. Survival depends on the body's maintaining or restoring homeostasis, a state of relative constancy, of its internal environment."
             ]
         },
         {
             "tag": "Q 68",
-            "question": [
+            "patterns": [
                 "what is brain-freeze",
                 "brain freeze",
                 "what is brain freeze",
@@ -615,78 +615,74 @@
                 "what is meant by brain freeze",
                 "brain freezed"
             ],
-            "answer": [
+            "responses": [
                 "Brain freeze, or ice cream headache, is an intense pain in the head caused by eating or drinking something cold. It's not serious and goes away in a few seconds or minutes. If you get one, try to bring the temperature in your mouth and throat back to normal."
             ]
         },
 {
             "tag": "Q 76",
-            "question": [
+            "patterns": [
                 "how does trash in the ocean disappear",
                 "what happes to the garbage in the ocean ",
                 "where do the wastes in the ocean go"
             ],
-            "answer": [
+            "responses": [
                 "Much of the trash in the ocean does not disappear, and this is becoming a big problem. Biodegradable materials such as paper, cardboard, and food quickly disintegrate, degrade, and are eaten by microorganisms in the ocean. However, materials such as plastic, glass, and metal do not degrade as well. Glass and metal tend to be heavy enough that they sink to the bottom of the ocean, out of sight. On the other hand, most plastic objects float on the surface of the ocean. Over time, ocean currents either wash this floating trash ashore or sweep it into big patches of garbage in the middle of the oceans."
             ]
         },
 {
             "tag": "Q 89",
-            "question": [
+            "patterns": [
                 "what is machine learning",
                 "machine learning",
-                "what is ml",
-                "explain ml",
                 "explain machine learning",
                 "explain about machine learning",
                 "give the definition of machine learning",
                 "ml"
             ],
-            "answer": [
+            "responses": [
                 "Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks. A subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers; but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.Some implementations of machine learning use data and neural networks in a way that mimics the working of a biological brain. In its application across business problems, machine learning is also referred to as predictive analytics."
             ]
         },
  {
             "tag": "Q 93",
-            "question": [
+            "patterns": [
                 "what is data science",
                 "data science meaning",
                 "data science",
-                "what is ds",
-                "ds",
                 "explain data science"
             ],
-            "answer": [
+            "responses": [
                 "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains. Data science is related to data mining, machine learning and big data."
             ]
         },
 {
             "tag": "quantum computing",
-            "question": [
+            "patterns": [
                 "what is quantum computing?",
                 "definition for quantum computing"
             ],
-            "answer": [
+            "responses": [
                 "Quantum computing is a type of computation that harnesses the collective properties of quantum states, such as superposition, interference, and entanglement, to perform calculations. The devices that perform quantum computations are known as quantum computers."
             ]
         },
         {
             "tag": "Computer 1",
-            "question": [
+            "patterns": [
                 "what is parts of computer system?"
             ],
-            "answer": [
+            "responses": [
                 "There are five main hardware components in a computer system: Input, Processing, Storage, Output and Communication devices. Are devices used for entering data or instructions to the central processing unit"
             ]
         },
  {
             "tag": "Question P15",
-            "question": [
+            "patterns": [
                 "education important ?",
                 "is education important",
                 "importance of education"
             ],
-            "answer": [
+            "responses": [
                 "Education helps to build character as you learn about different cultures, languages and how other people think as well as live. When you have an education you are able to fulfill the basic needs in life. You are taught to get dressed, learn self-care and practical life skills."
             ]
         }
