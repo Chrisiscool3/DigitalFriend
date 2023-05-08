@@ -1,5 +1,6 @@
 DigitalFriend
 A chatbot with a focus on improving mental health
+Created by Carly Munoz and Chris Ayala
 
 
 Table of Contents:
